@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\v_models\SV-98\SV-98"
+	"$halflambert" "1"
+	"$bumpmap" "models\weapons\v_models\SV-98\SV-98_n"
+
+	"$phong" "1"
+	"$phongexponent" 15
+	"$phongboost" ".2"
+	"$phongfresnelranges"	"[ .6 3 9]"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "50"				
+	"$rimlightboost" "0.02"
+
+}

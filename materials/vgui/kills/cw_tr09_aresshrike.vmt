@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/kills/cw_tr09_aresshrike"
+	"$translucent" 1
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

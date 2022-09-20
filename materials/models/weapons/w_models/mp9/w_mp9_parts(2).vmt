@@ -1,0 +1,30 @@
+"VertexLitGeneric"
+{
+	"$basetexture" 	"models/weapons/v_models/mp9/v_mp9_parts(2)"
+	"$bumpmap" 	"models/weapons/v_models/mp9/v_mp9_parts_normal"
+	"$normalmapalphaenvmapmask" "1"
+	
+	"$phong" 		"1"
+	"$phongexponent" 		"111"
+	"$phongalbedotint"	"1"
+	"$phongboost"		"2"
+	"$phongfresnelranges"	"[.25 2.5 6]"
+
+	"$envmap" 	"env_cubemap"
+	"$envmaptint"		"[0.1 0.1 0.1]"
+	"$envmapfresnel"	"-0.25"
+
+	"$rimlight"	"1"
+	"$rimlightboost"	"0.1"
+	"$rimlightexponent"	"50"
+
+	"$selfillum"	"1"
+
+	Proxies
+	{
+		PlayerWeaponColor
+		{
+			resultVar	$selfillumtint
+		}
+	}
+}

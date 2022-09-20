@@ -1,0 +1,21 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models\weapons\v_models\SV-98\SV-98_mag"
+	"$halflambert" "1"
+	"$bumpmap" "models\weapons\v_models\SV-98\SV-98_mag_n"
+
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmaptint" "[ 1.5 1.5 1.5 ]"
+	"$envmapsaturation" "1"
+
+	"$phong" "1"
+	"$phongexponent" 35
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[ .6 3 9]"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "25"				
+	"$rimlightboost" "0.05"
+
+}
